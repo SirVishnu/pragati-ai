@@ -1,0 +1,27 @@
+{
+  "regressor": {
+    "best_iteration": 8,
+    "test_rmse_pct_points": 17.711,
+    "test_mae_pct_points": 12.927,
+    "test_r2": -0.0063,
+    "directional_accuracy": 0.4972,
+    "n_test": 28644
+  },
+  "classifier": {
+    "best_iteration": 51,
+    "test_roc_auc": 0.5943,
+    "test_avg_precision": 0.3548,
+    "n_test": 28644,
+    "test_spike_rate": 0.283
+  },
+  "price_level_regressor": {
+    "best_iteration": 125,
+    "test_rmse_rs_per_quintal": 1323.8,
+    "test_mae_rs_per_quintal": 890.5,
+    "test_mape_pct": 18.04,
+    "test_r2": 0.8512,
+    "naive_persistence_rmse": 1079.9,
+    "naive_persistence_mape_pct": 12.39,
+    "n_test": 28644
+  }
+}
